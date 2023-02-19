@@ -14,7 +14,7 @@ class SpringJenkinsDemoApplicationTests {
 	void contextLoads() {
 		
 		logger.info("inside the test ....");
-		
+		logger.info("for second integration ....");
 		assertEquals(true, true);
 	}
 

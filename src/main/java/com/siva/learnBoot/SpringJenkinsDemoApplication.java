@@ -14,7 +14,7 @@ public class SpringJenkinsDemoApplication {
 	@PostConstruct
 	public void init() {
 		logger.info("testing the integration using Jenkins...");
-		
+		logger.info("One more logger statement for pipeline test");
 	}
 
 	public static void main(String[] args) {
